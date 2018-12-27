@@ -1,0 +1,17 @@
+import sqlite3
+
+#connect/create database
+conn = sqlite3.connect("<dbname>.db")
+
+#instantiate a cursor object
+cursor =conn.cursor()
+
+#create a table
+cursor.execute("""CREATE TABLE <table name> (<colname> <col datatype>, <colname <col datatype>, ...))
+
+???Define freezer and plasmid database fields
+
+Define needs of the application:
+Plasmid Database
+--Plasmid name
+--Automatically update table from the plasmid files in the folder.  Update the xls file as well.

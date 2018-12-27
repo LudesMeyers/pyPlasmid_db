@@ -1,0 +1,2 @@
+albums = [('Exodus', 'Andy Hunter', '7/9/2002', 'Sparrow Records', 'CD'), ('Glow', 'Andy Hunter', '7/24/2012', 'Xplore Records', 'MP3'),\
+('Until We Have Faces', 'Red', '2/1/2011', 'Essential Records', 'CD')] 
